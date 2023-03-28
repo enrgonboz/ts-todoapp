@@ -23,6 +23,7 @@ const mockTodos = [
   }
 ]
 
+console.log('hola')
 const App = (): JSX.Element => {
   const [todos, setTodos] = useState(mockTodos)
   const [filterSelected, setFilterSelected] = useState<FilterValue>(TODO_FILTERS.ALL)
